@@ -7,7 +7,7 @@ HumidTemp is a humidity and temperature detector project using DHT22 sensor and 
 ## Download Library
 [library Link](https://github.com/adafruit/DHT-sensor-library)
 
-DHT22 Sensor Pin Names
+## DHT22 Sensor Pin Names
 
 | Name | Description            |
 |------|------------------------|
