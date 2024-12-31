@@ -1,4 +1,4 @@
-##HumidTemp
+## HumidTemp
 HumidTemp is a humidity and temperature detector project using DHT22 sensor and Arduino Uno MicroController Board
 
 ## Components Required
