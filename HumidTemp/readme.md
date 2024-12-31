@@ -5,6 +5,15 @@ HumidTemp is a humidity and temperature detector project using DHT22 sensor and 
 - DHT22 Sensor
 - Arduino Uno Board
 
+DHT22 Sensor Pin Names
+
+| Name | Description            |
+|------|------------------------|
+| VCC  | Positive voltage       |
+| SDA  | Digital data pin (I/O) |
+| NC   | Not connected          |
+| GND  | Ground                 |
+
   ## Circuit Diagram
 
   ![Screenshot 2024-12-31 150052](https://github.com/user-attachments/assets/196a3be9-cb4f-4f6e-83f5-34a41c156905)
