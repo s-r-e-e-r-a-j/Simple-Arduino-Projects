@@ -1,3 +1,6 @@
+## ObjectDetecter
+ObjectDetecter is a object detecting project using Arduino Uno Board and ultrasonic distance sensor
+
 ## Components Required
 - Arduino Uno Board
 - HC-SR04 Ultrasonic Sound Distance Sensor
