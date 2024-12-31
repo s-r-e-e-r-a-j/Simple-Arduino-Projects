@@ -5,7 +5,7 @@ HumidTemp is a humidity and temperature detector project using DHT22 sensor and 
 - DHT22 Sensor
 - Arduino Uno Board
 ## Download Library
-[LINK](https://github.com/adafruit/DHT-sensor-library)
+[library Link](https://github.com/adafruit/DHT-sensor-library)
 
 DHT22 Sensor Pin Names
 
