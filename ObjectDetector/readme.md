@@ -1,4 +1,4 @@
-## ObjectDetecter
+## ObjectDetector
 ObjectDetector is an object detection project using an Arduino Uno Board and an ultrasonic distance sensor. It detects objects within a range of 30 cm or less between the sensor and the object.
 
 ## Components Required
