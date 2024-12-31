@@ -13,4 +13,6 @@ HumidTemp is a humidity and temperature detector project using DHT22 sensor and 
 
 - Open the Arduino IDE.
 - After uploading your code, click the Serial Monitor icon (or press Ctrl + Shift + M).
-- Set the baud rate in the Serial Monitor dropdown (bottom-right) to match the value in Serial.begin() (e.g., 115200).
+- Set the baud rate in the Serial Monitor dropdown (bottom-right) to match the value in Serial.begin() in the code (e.g., 115200).
+
+ you can see the temperature and humidity in the serial monitor
