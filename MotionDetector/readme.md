@@ -1,5 +1,5 @@
 ## Motion Detecter
-motion detecter is a motion detection project using an arduino uno board and PIR sensor 
+motion detector is a motion detection project using an arduino uno board and PIR sensor 
 
 ## Components Required
 - Arduino Uno Board
