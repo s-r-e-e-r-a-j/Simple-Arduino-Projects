@@ -9,7 +9,8 @@ HumidTemp is a humidity and temperature detector project using DHT22 sensor and 
 
 Follow these steps to install the Adafruit DHT library in your Arduino IDE:  
 
-1. Click [**here**](https://github.com/adafruit/DHT-sensor-library/archive/refs/heads/master.zip) to download the Adafruit DHT Library on GitHub.  
+1. Download the library using this **Download Link**:  
+   [**Adafruit DHT Library on GitHub**](https://github.com/adafruit/DHT-sensor-library/archive/refs/heads/master.zip)  
 2. Open the **Arduino IDE** on your computer.  
 3. Go to the top menu and click on **"Sketch"**.  
 4. Select **"Include Library"** > **"Add .ZIP Library..."**.  
