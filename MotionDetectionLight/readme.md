@@ -1,6 +1,6 @@
 ## Motion Detection Light
 
-Motion Detection Light Project 
+Motion Detection Light Project using Arduino uno and PIR Sensor
 
 
 ## Components Required
@@ -9,6 +9,6 @@ Motion Detection Light Project
 - Arduino Uno
 - 230v ac bulb
 
-  ##v Circuit Diagram
+  ## Circuit Diagram
 
   ![circuit_image (1)](https://github.com/user-attachments/assets/a4b00c0c-2022-4fce-a495-edd19328e553)
