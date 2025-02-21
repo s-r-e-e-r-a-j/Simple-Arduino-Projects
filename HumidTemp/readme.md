@@ -37,7 +37,8 @@ Follow these steps to install the Adafruit DHT library in your Arduino IDE:
 
   ## Circuit Diagram
 
-![circuit_image (5)](https://github.com/user-attachments/assets/9cbed3bf-5164-415a-b3a3-b29707ea8cc1)
+![circuit_image (7)](https://github.com/user-attachments/assets/1050cf95-10f1-4631-94d5-a3a475b8cb2a)
+
 
 
   
