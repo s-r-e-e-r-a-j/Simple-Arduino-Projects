@@ -25,7 +25,7 @@ Follow these steps to install the Adafruit DHT library in your Arduino IDE:
    ```cpp
    #include <DHT.h>
    
-   
+   ```
 
 ## DHT22 Sensor Pin Names
 
@@ -37,6 +37,7 @@ Follow these steps to install the Adafruit DHT library in your Arduino IDE:
 
   ## Circuit Diagram
 
-  ![Screenshot 2024-12-31 150052](https://github.com/user-attachments/assets/196a3be9-cb4f-4f6e-83f5-34a41c156905)
+  
 
- 
+ ![circuit_image (2)](https://github.com/user-attachments/assets/ad354492-27cf-4caf-ab49-ac7a504aa3be)
+
