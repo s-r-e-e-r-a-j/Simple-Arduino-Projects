@@ -1,31 +1,36 @@
+#include <LiquidCrystal.h>
 #include "DHT.h"
 
-#define dhttype DHT22
+int temperature;
+int humidity;
+int dhtpin=4;
+int rs=12,enable=11,d4=10,d5=9,d6=8,d7=7;
+#define dhttype DHT11
 
-int dhtpin=10;
-
+LiquidCrystal lcd(rs,enable,d4,d5,d6,d7);
 DHT dht(dhtpin,dhttype);
 
 void setup() {
-Serial.begin(115200);
-dht.begin();
+  lcd.begin(16,2);
+  dht.begin();
+
 
 }
 
 void loop() {
+  temperature=dht.readTemperature();
+  humidity=dht.readHumidity();
+  lcd.clear();
 
-int temperature=dht.readTemperature();
-int humidity=dht.readHumidity();
-if(isnan(temperature) || isnan(humidity)){
-  Serial.println("failed to fetch Data From Sensor");
-  return;
-}
-
-Serial.print("Humidity: ");
-Serial.print(humidity);
-Serial.print("%\t");
-Serial.print("Temperature: ");
-Serial.print(temperature);
-Serial.print("°C\n");
+  if(isnan(humidity)||isnan(temperature)){
+    lcd.print("fetch error");
+  }else{
+    lcd.print("Temperature: ");
+    lcd.print(temperature);
+    lcd.setCursor(0,1);
+    lcd.print("Humidity");
+    lcd.print(humidity);
+    lcd.print("%");
+  }
 delay(2000);
 }
