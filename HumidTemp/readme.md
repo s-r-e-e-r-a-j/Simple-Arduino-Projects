@@ -32,7 +32,7 @@ Follow these steps to install the Adafruit DHT library in your Arduino IDE:
 | Name | Description            |
 |------|------------------------|
 | VCC  | Positive voltage       |
-| SDA  | Digital data pin (I/O) |
+| OUT  | Digital data pin (I/O) |
 | GND  | Ground                 |
 
   ## Circuit Diagram
