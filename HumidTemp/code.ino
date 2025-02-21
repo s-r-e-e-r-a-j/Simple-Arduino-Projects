@@ -28,7 +28,7 @@ void loop() {
     lcd.print("Temperature: ");
     lcd.print(temperature);
     lcd.setCursor(0,1);
-    lcd.print("Humidity");
+    lcd.print("Humidity: ");
     lcd.print(humidity);
     lcd.print("%");
   }
