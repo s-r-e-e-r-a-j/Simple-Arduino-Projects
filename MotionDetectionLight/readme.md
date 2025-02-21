@@ -13,4 +13,5 @@ This project is ideal for home automation, security lighting, and energy-saving 
 
   ## Circuit Diagram
 
-  ![circuit_image (1)](https://github.com/user-attachments/assets/a4b00c0c-2022-4fce-a495-edd19328e553)
+  ![circuit_image (6)](https://github.com/user-attachments/assets/c95b08c1-2f08-412c-b488-a304defc823c)
+
