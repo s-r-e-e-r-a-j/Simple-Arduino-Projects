@@ -4,9 +4,9 @@ int relaypin=5;
 
 void setup() {
   
-Serial.begin(9600);
-pinMode(sensorpin, INPUT);
-pinMode(relaypin, OUTPUT);
+  Serial.begin(9600);
+  pinMode(sensorpin, INPUT);
+  pinMode(relaypin, OUTPUT);
 
 }
 
@@ -14,7 +14,7 @@ void loop() {
   
   int pirstate=digitalRead(sensorpin);
 
- Serial.println(pirstate);
+  Serial.println(pirstate);
 
   if(pirstate == HIGH){
 
